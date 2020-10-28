@@ -1,3 +1,4 @@
+<?php
 class lnwseed {
     public function Request($method = 'GET', $url, $header = false, $data = false) {
         $ch = curl_init();
@@ -26,3 +27,4 @@ class lnwseed {
 		################################################
         
         print_r($tw->GetProfile($token));
+?>
